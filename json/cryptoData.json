@@ -1,0 +1,30 @@
+{
+  "countries": [{
+    "name": "United States"
+  },
+  {
+    "name": "India"
+  }
+],
+"coins": [{
+  "name": "Bitcoin"
+},
+{
+  "name": "Shiba"
+}
+],
+"types": [{
+  "type": "Official"
+},
+{
+  "type": "Biggest"
+}
+],
+"socialNetworks": [{
+  "name": "Telegram"
+},
+{
+  "name": "Twitter"
+}
+]
+}

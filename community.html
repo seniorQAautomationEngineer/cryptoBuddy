@@ -41,30 +41,29 @@
             </div>
         </div>
      </nav>
-     <form id="cryptoCommunities">
-        <div class="form-group row">
-            <label for="cryptoOption" class="col-sm-6 col-form-label">Find community</label>
-            <!-- Select Dropdown -->
-            <div class="col">
-                <select id="cryptoOption" class="form-control">
-                    <option selected>Select...</option>
-                    <option value="Coin">Coin</option>
-                    <option value="Country">Country</option>
-                </select>
-            </div>
+     <div class="form-row">
+        <div class="form-group col-md-2">
+          <label for="coinList"></label>
+          <select id="coinList" class="form-control">
+            <option selected>Choose coin</option>
+          </select>
         </div>
-        <!-- Cancel and Search Buttons -->
-        <div class="form-group row">
-            <div class="col">
-                <button data-dismiss="modal" class="btn btn-primary">Cancel</button>
-                <button type="submit" class="btn btn-primary">Search</button>
-            </div>
+        <div class="form-group col-md-2">
+          <label for="countryList"></label>
+          <select id="countryList" class="form-control">
+            <option selected>Choose country</option>
+          </select>
         </div>
-    </form>
+        <div class="form-group col-md-2">
+          <label for="socialNetworks"></label>
+          <select id="socialNetworks" class="form-control">
+            <option selected>Choose social network</option>
+          </select>
+        </div>
     
     
       <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-      <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
       <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
       <script src="js/scripts.js" defer></script>
