@@ -55,11 +55,10 @@ header h2 {
   text-align: center; }
   .nav-center ul.navbar-nav {
     display: inline-block; }
-    .nav-center ul.navbar-nav li {
-      display: inline a;
-        display-float: left; }
 
-
+#searchForm {
+  margin-top: 50px;
+}
 .form-control {
   width: 200px;
   display: inline-block;
@@ -70,11 +69,26 @@ header h2 {
   margin-right: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
+.form-group {
+  margin-right: 10px;
+}
 
-.form-group .form-control {
-  position: absolute;
-  top: 100%;
-  left: 0;
+.form-group:last-child {
+  margin-right: 0;
+}
+
+#searchResults {
+  margin-top: 20px;
+}
+
+.btn-primary {
+  margin-top: 10px;
+}
+
+#searchForm .form-group.col-md-2 button {
+  margin-bottom: 10px;
 }
