@@ -82,13 +82,22 @@ header h2 {
 }
 
 #searchResults {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .btn-primary {
   margin-top: 10px;
 }
 
-#searchForm .form-group.col-md-2 button {
-  margin-bottom: 10px;
+
+#searchResults td, #searchResults th {
+  text-align: center;
 }
+
+
+#searchResultsContainer h3 {
+  text-align: center;
+}
+
+
+
