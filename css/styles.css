@@ -89,10 +89,6 @@ header h2 {
   margin-right: 0;
 }
 
-.btn-primary, .btn-clear {
-  margin-top: 5px;
-}
-
 .form-row select:first-child {
   margin-right: 10px;
 }
@@ -101,17 +97,11 @@ header h2 {
   margin-left: 10px;
 }
 
-.btn {
-  margin-top: 20px;
-}
-
 #socialNetworks,
 .btn-clear {
   margin-right: 10px; /* add this line to create some space on the right side */
 }
     
-    
-
 
 #searchResults {
   margin-top: 50px;
